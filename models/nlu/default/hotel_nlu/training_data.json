@@ -1,0 +1,373 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 34,
+            "end": 39,
+            "value": "peter",
+            "entity": "person"
+          }
+        ],
+        "text": "selamat pagi perknalkan nama saya peter"
+      },
+      {
+        "intent": "greet",
+        "text": "hallo"
+      },
+      {
+        "intent": "greet",
+        "text": "siang"
+      },
+      {
+        "intent": "greet",
+        "text": "pagi"
+      },
+      {
+        "intent": "greet",
+        "text": "sore"
+      },
+      {
+        "intent": "greet",
+        "text": "malam"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "halo"
+      },
+      {
+        "intent": "inform_extra",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "kasur",
+            "entity": "extra"
+          }
+        ],
+        "text": "saya mau tambah kasur"
+      },
+      {
+        "intent": "inform_extra",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "sikat gigi",
+            "entity": "extra"
+          }
+        ],
+        "text": "bisa saya minta sikat gigi lagi?"
+      },
+      {
+        "intent": "inform_extra",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "kasur",
+            "entity": "extra"
+          }
+        ],
+        "text": "minta satu kasur ya"
+      },
+      {
+        "intent": "inform_extra",
+        "text": "bisa minta pasta gigi lagi?"
+      },
+      {
+        "intent": "inform_extra",
+        "text": "bisa minta keset lagi?"
+      },
+      {
+        "intent": "inform_extra",
+        "text": "tambahan handuk ya"
+      },
+      {
+        "intent": "inform_complain",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "kamar",
+            "entity": "ruangan"
+          }
+        ],
+        "text": "kok kamar saya kurang bersih ya?"
+      },
+      {
+        "intent": "inform_complain",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "tv",
+            "entity": "benda"
+          }
+        ],
+        "text": "tv tidak bisa nyala"
+      },
+      {
+        "intent": "inform_complain",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "ac",
+            "entity": "benda"
+          }
+        ],
+        "text": "ac tidak bisa nyala"
+      },
+      {
+        "intent": "inform_complain",
+        "text": "ini sprei masih kotor"
+      },
+      {
+        "intent": "inform_complain",
+        "text": "ini bedcover kotor"
+      },
+      {
+        "intent": "inform_complain",
+        "text": "ini kamar mandi kotor"
+      },
+      {
+        "intent": "inform_complain",
+        "text": "lampu tidakbisa dinyalakan"
+      },
+      {
+        "intent": "inform_complain",
+        "text": "ada kecoa di kamar"
+      },
+      {
+        "intent": "inform_complain",
+        "text": "ac nya kurang dingin"
+      },
+      {
+        "intent": "inform_complain",
+        "text": "remote tv nya dimana ya?"
+      },
+      {
+        "intent": "inform_complain",
+        "text": "kok sabunnya gaada ya?"
+      },
+      {
+        "intent": "inform_complain",
+        "text": "remote tvnya gabisa dipakai"
+      },
+      {
+        "intent": "inform_complain",
+        "text": "makanan saya kok gadateng-dateng?"
+      },
+      {
+        "intent": "inform_complain",
+        "text": "kok tvnya tidak ada gambarnya"
+      },
+      {
+        "intent": "inform_complain",
+        "text": "kok tvnya tidak ada signal"
+      },
+      {
+        "intent": "inform_complain",
+        "text": "kok karpetnya kotor"
+      },
+      {
+        "intent": "inform_complain",
+        "text": "kok kesetnya kotor"
+      },
+      {
+        "intent": "inform_complain",
+        "text": "kok water heaternya tidak bisa"
+      },
+      {
+        "intent": "inform_complain",
+        "text": "kok closetnya kotor"
+      },
+      {
+        "intent": "inform_complain",
+        "text": "kok klosetnya tidak bisa menyiram"
+      },
+      {
+        "intent": "inform_complain",
+        "text": "kok air wastafel mati"
+      },
+      {
+        "intent": "inform_room:",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "123",
+            "entity": "room"
+          }
+        ],
+        "text": "saya kamar 123"
+      },
+      {
+        "intent": "inform_room:",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "123",
+            "entity": "room"
+          }
+        ],
+        "text": "123"
+      },
+      {
+        "intent": "inform_room:",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "123",
+            "entity": "room"
+          }
+        ],
+        "text": "di kamar 123"
+      },
+      {
+        "intent": "inform_service",
+        "text": "sarapan jam berapa ya?"
+      },
+      {
+        "intent": "inform_service",
+        "text": "saya ingin pesan makanan"
+      },
+      {
+        "intent": "inform_service",
+        "text": "saya belum mendapat welcome drink"
+      },
+      {
+        "intent": "inform_service",
+        "text": "lokasi kolam renang dimana ya?"
+      },
+      {
+        "intent": "inform_service",
+        "text": "ruang gym lantai berapa ya?"
+      },
+      {
+        "intent": "inform_service",
+        "text": "saya ingin laundry pakaian saya"
+      },
+      {
+        "intent": "thanks",
+        "text": "thankyou"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "terimakasih"
+      },
+      {
+        "intent": "thanks",
+        "text": "makasih ya"
+      },
+      {
+        "intent": "thanks",
+        "text": "maaci syg"
+      },
+      {
+        "intent": "thanks",
+        "text": "tencu"
+      },
+      {
+        "intent": "thanks",
+        "text": "tqtq"
+      },
+      {
+        "intent": "thanks",
+        "text": "thx"
+      },
+      {
+        "intent": "thanks",
+        "text": "nuhun"
+      },
+      {
+        "intent": "thanks",
+        "text": "hatur nuhune"
+      },
+      {
+        "intent": "thanks",
+        "text": "xiexie"
+      },
+      {
+        "intent": "thanks",
+        "text": "matur suwun"
+      },
+      {
+        "intent": "thanks",
+        "text": "gomawo"
+      },
+      {
+        "intent": "thanks",
+        "text": "makasih"
+      },
+      {
+        "intent": "tunggu",
+        "text": "wait sebentar"
+      },
+      {
+        "intent": "tunggu",
+        "text": "tunggu"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "tidak"
+      },
+      {
+        "intent": "deny",
+        "text": "salah"
+      },
+      {
+        "intent": "deny",
+        "text": "belum"
+      },
+      {
+        "intent": "affirm",
+        "text": "ya"
+      },
+      {
+        "intent": "affirm",
+        "text": "yaa"
+      },
+      {
+        "intent": "affirm",
+        "text": "y"
+      },
+      {
+        "intent": "affirm",
+        "text": "iya"
+      },
+      {
+        "intent": "affirm",
+        "text": "sudah"
+      },
+      {
+        "intent": "affirm",
+        "text": "udah"
+      },
+      {
+        "intent": "affirm",
+        "text": "ada"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

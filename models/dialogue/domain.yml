@@ -1,0 +1,49 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_thanks
+- utter_unclear
+- utter_ask_room
+- action_extra
+config:
+  store_entities_as_slots: true
+entities:
+- ruangan
+- benda
+- person
+- extra
+- room
+forms: []
+intents: []
+slots:
+  benda:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  extra:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  person:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  room:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  ruangan:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_room:
+  - text: boleh saya tahu ada di kamar berapa?
+  utter_greet:
+  - text: selamat datang
+  utter_thanks:
+  - text: Terimakasih
+  - text: baik
+  utter_unclear:
+  - text: Maaf saya tidak ngerti, bisa diulangi pertanyaannya?q

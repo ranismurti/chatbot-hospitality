@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Public\\Documents\\KP\\./models/nlu/default\\hotel_nlu\\component_4_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\Public\\Documents\\KP\\./models/nlu/default\\hotel_nlu\\component_4_EmbeddingIntentClassifier.ckpt"

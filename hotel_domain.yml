@@ -1,0 +1,41 @@
+slots:
+  ruangan:
+    type: text
+  benda:
+    type: text
+  person:
+    type: text
+  extra:
+    type: text
+  room:
+    type: text
+intens:
+  - greet
+  - thanks
+  - inform_extra
+  - inform_complain
+
+entities:
+  - ruangan
+  - benda
+  - person
+  - extra
+  - room
+
+templates:
+  utter_greet:
+    - text: "selamat datang"
+  utter_thanks:
+    - 'Terimakasih'
+    - 'baik'
+  utter_ask_room:
+    - 'boleh saya tahu ada di kamar berapa?'
+  utter_unclear:
+    - 'Maaf saya tidak ngerti, bisa diulangi pertanyaannya?q'
+
+actions:
+  - utter_greet
+  - utter_thanks
+  - utter_unclear
+  - utter_ask_room
+  - action_extra

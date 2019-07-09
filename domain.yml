@@ -1,0 +1,37 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- action_extra
+- utter_unclear
+- utter_thanks
+- utter_ask_room
+entities:
+- ruangan
+- person
+- extra
+- room
+- benda
+intents:
+- greet
+slots:
+  benda:
+    type: text
+  extra:
+    type: text
+  person:
+    type: text
+  room:
+    type: text
+  ruangan:
+    type: text
+templates:
+  utter_ask_room:
+  - text: boleh saya tahu ada di kamar berapa?
+  utter_greet:
+  - text: selamat datang
+  utter_thanks:
+  - text: Terimakasih
+  - text: baik
+  utter_unclear:
+  - text: Maaf saya tidak ngerti, bisa diulangi pertanyaannya?q
